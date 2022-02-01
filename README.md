@@ -6,7 +6,7 @@ Qué hacer cuando aparece el error: failed to push some refs to (repo url)
 
 ## Instrucciones
 
-1. Creo mi repo remoto en GitHub (público, con README y .gitignore)
+1. Creo mi repo remoto en GitHub (público, con archivos README y .gitignore)
 
 2. En la terminal, inicializo Git en mi root con `git init`
 
@@ -25,3 +25,13 @@ Qué hacer cuando aparece el error: failed to push some refs to (repo url)
 9. Ahora mis commits van a estar secuenciados: va a aparecer primero el local y luego el remoto. Lo puedo comprobar con `git log`
 
 10. Empujo finalmente mi repo local con `git push -u origin main`
+
+## Aclaración
+
+Una vez solucionado el error, cada vez que se realicen modificaciones localmente se deben utilizar los siguientes comandos:
+
+1. Agrego todos los archivos modificados `git add .`
+
+2. Pido a Git que lo administre con `git commit -m "modificación"`
+
+10. Empujo a GitHub con `git push`
